@@ -173,7 +173,7 @@ Admin.BorderSizePixel = 2
 Admin.Position = UDim2.new(0.0321931541, 0, 0.58477509, 0)
 Admin.Size = UDim2.new(0, 225, 0, 50)
 Admin.Font = Enum.Font.SciFi
-Admin.Text = "TacoBell not work"
+Admin.Text = "Shutdown"
 Admin.TextColor3 = Color3.new(163, 0, 183)
 Admin.TextSize = 25
 
@@ -192,13 +192,7 @@ Noclip.TextSize = 25
 -- Scripts
 
 Admin.MouseButton1Down:connect(function()
-	game.Players:Chat("getpad")
-	now = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-=
-game.Workspace.Terrain.GameFolder.Admin.Pads['Touch to get admin'].Head.CFrame
-	wait(0.2)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = now
+     game.Players:Chat("shutdown ")
 end)
 
 noclip = false
